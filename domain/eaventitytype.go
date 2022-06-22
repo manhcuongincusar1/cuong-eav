@@ -6,7 +6,7 @@ import (
 
 type EavEntityType struct {
 	EntityTypeID   uint   `gorm:"column:entity_type_id;primary_key;auto_increment"`
-	EntityTypeCode string `gorm:"column:entity_type_code;unique_index"`
+	EntityTypeCode string `gorm:"column:entity_type_code"`
 	EntityTable    string `gorm:"column:entity_table"`
 }
 
