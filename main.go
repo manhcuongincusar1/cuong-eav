@@ -27,7 +27,7 @@ func main() {
 
 	gin.SetMode(gin.DebugMode)
 
-	endPoint := fmt.Sprintf(":%d", 8080)
+	endPoint := fmt.Sprintf(":%d", 8888)
 	maxHeaderBytes := 1 << 20
 	server := &http.Server{
 		Addr:           endPoint,
